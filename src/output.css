@@ -575,6 +575,18 @@ video {
   margin-top: 50px;
 }
 
+.mt-\[10px\] {
+  margin-top: 10px;
+}
+
+.mt-\[15px\] {
+  margin-top: 15px;
+}
+
+.mt-\[30px\] {
+  margin-top: 30px;
+}
+
 .flex {
   display: flex;
 }
@@ -589,6 +601,18 @@ video {
 
 .w-\[35\%\] {
   width: 35%;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[40\%\] {
+  width: 40%;
+}
+
+.w-\[50\%\] {
+  width: 50%;
 }
 
 .flex-col {
@@ -643,6 +667,10 @@ video {
   gap: 40px;
 }
 
+.gap-\[10px\] {
+  gap: 10px;
+}
+
 .rounded-sm {
   border-radius: 0.125rem;
 }
@@ -655,8 +683,16 @@ video {
   border-radius: 20px;
 }
 
+.rounded-\[30px\] {
+  border-radius: 30px;
+}
+
 .border {
   border-width: 1px;
+}
+
+.border-\[2px\] {
+  border-width: 2px;
 }
 
 .border-b {
@@ -665,6 +701,11 @@ video {
 
 .border-b-\[3px\] {
   border-bottom-width: 3px;
+}
+
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity, 1));
 }
 
 .border-b-\[\] {
@@ -731,8 +772,20 @@ video {
   padding: 40px 100px;
 }
 
+.p-\[30px_\] {
+  padding: 30px;
+}
+
+.p-\[30px_40px\] {
+  padding: 30px 40px;
+}
+
 .text-center {
   text-align: center;
+}
+
+.text-start {
+  text-align: start;
 }
 
 .font-\[\] {
@@ -763,6 +816,10 @@ video {
   font-size: 26px;
 }
 
+.text-\[24px\] {
+  font-size: 24px;
+}
+
 .font-\[500\] {
   font-weight: 500;
 }
@@ -773,6 +830,10 @@ video {
 
 .font-\[600\] {
   font-weight: 600;
+}
+
+.font-\[550\] {
+  font-weight: 550;
 }
 
 .text-white {
@@ -789,7 +850,36 @@ video {
   color: ;
 }
 
+.text-\[\#B91122\] {
+  --tw-text-opacity: 1;
+  color: rgb(185 17 34 / var(--tw-text-opacity, 1));
+}
+
 @media (min-width: 768px) {
+  .md\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .md\:mt-\[40px\] {
+    margin-top: 40px;
+  }
+
+  .md\:mt-\[50px\] {
+    margin-top: 50px;
+  }
+
+  .md\:mt-\[60px\] {
+    margin-top: 60px;
+  }
+
+  .md\:mt-\[80px\] {
+    margin-top: 80px;
+  }
+
+  .md\:mt-\[70px\] {
+    margin-top: 70px;
+  }
+
   .md\:block {
     display: block;
   }
@@ -858,6 +948,10 @@ video {
     gap: 100px;
   }
 
+  .md\:p-0 {
+    padding: 0px;
+  }
+
   .md\:text-start {
     text-align: start;
   }
@@ -888,6 +982,10 @@ video {
 
   .md\:text-\[21px\] {
     font-size: 21px;
+  }
+
+  .md\:text-\[24px\] {
+    font-size: 24px;
   }
 
   .md\:text-\[\] {
