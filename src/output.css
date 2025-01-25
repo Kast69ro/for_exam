@@ -888,6 +888,10 @@ video {
     display: flex;
   }
 
+  .md\:hidden {
+    display: none;
+  }
+
   .md\:w-\[\] {
     width: ;
   }
